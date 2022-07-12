@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+html .page-container,
+body .page-container {
+  height: 100%;
+}
+html .page-container .header-wrapper,
+body .page-container .header-wrapper {
+  height: 50px;
+  padding-left: 200px;
+  padding-top: 5px;
+  color: rgb(65, 166, 230);
+}
+html .page-container .body-wrapper,
+body .page-container .body-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: calc(100% - 50px);
+  justify-content: center;
+  align-items: center;
+}
+html .page-container .body-wrapper button,
+body .page-container .body-wrapper button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 12px;
+  position: relative;
+  bottom: -80px;
+  background-color: red;
+}
+html .page-container .body-wrapper button:active,
+body .page-container .body-wrapper button:active {
+  transform: translate(0px, 2px);
+}
+html .page-container .body-wrapper .label-wrapper,
+body .page-container .body-wrapper .label-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+html .page-container .body-wrapper .label-wrapper .hex-number,
+body .page-container .body-wrapper .label-wrapper .hex-number {
+  color: rgb(75, 161, 221);
+}/*# sourceMappingURL=styles.css.map */
